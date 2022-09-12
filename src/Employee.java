@@ -20,6 +20,6 @@ public class Employee {
         this.abteilung = abteilung;
         this.gehalt = gehalt;
         this.dienstjahre = dienstjahre;
-        this.besonderheiten = besonderheiten
+        this.besonderheiten = besonderheiten;
     }
 }
