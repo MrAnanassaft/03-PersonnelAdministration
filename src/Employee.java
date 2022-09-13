@@ -1,25 +1,72 @@
 public class Employee {
     private String name;
-    private String surname;
-    private String geburstdatum;
-    private char geschlecht;
-    private int alter;
-    private double gewicht ;
-    private String abteilung ;
-    private double gehalt;
-    private int dienstjahre;
-    private String besonderheiten;
+    private String forename;
+    private String birthdate;
 
-    public Employee(String name, String vorname, String geburtsdatum, char geschlecht, int alter, double gewicht, String abteilung, double gehalt, int dienstjahre, String besonderheiten){
+    private char gender;
+    private int age;
+    private double weight;
+
+    private String department;
+    private double salary;
+
+    private int yearsOfService;
+    private String specialities;
+
+    public Employee(String name, String forename, String birthdate, char gender, int age, double weigth, String specialities){
         this.name = name;
-        this.surname = vorname;
-        this.geburstdatum = geburtsdatum;
-        this.geschlecht = geschlecht;
-        this.alter = alter;
-        this.gewicht = gewicht;
-        this.abteilung = abteilung;
-        this.gehalt = gehalt;
-        this.dienstjahre = dienstjahre;
-        this.besonderheiten = besonderheiten
+        this.forename = forename;
+        this.birthdate = birthdate;
+
+        this.gender = gender;
+        this.age = age;
+        this.weight = weigth;
+
+        this.department = "A38";
+        this.salary = 1500;
+
+        this.yearsOfService = 0;
+        this.specialities = specialities;
+
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getForename() {
+        return forename;
+    }
+
+    public String getBirthdate() {
+        return birthdate;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public int getYearsOfService() {
+        return yearsOfService;
+    }
+
+    public String getSpecialities() {
+        return specialities;
     }
 }
