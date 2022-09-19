@@ -69,4 +69,7 @@ public class Employee {
     public String getSpecialities() {
         return specialities;
     }
+    public void setDepartment(String newDepartment){
+        department = newDepartment;
+    }
 }
