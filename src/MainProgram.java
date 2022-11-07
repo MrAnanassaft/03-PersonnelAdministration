@@ -9,7 +9,7 @@ public class MainProgram {
 
         if(e1.getAge() >= 40){
             if(e1.getAge() < 50){
-                e1.setSalary(4000);
+                e1.setSalary(3000);
             }else{
                 if(e1.getAge() >= 50){
                     e1.setSalary((int)(Math.random() * 1000) + 4000);
@@ -18,12 +18,10 @@ public class MainProgram {
                     e1.setSalary(e1.getSalary() + 500);
                 }
             }
-        }else{
-            e1.setSalary(3000);
         }
         if(e2.getAge() >= 40){
             if(e2.getAge() < 50){
-                e2.setSalary(4000);
+                e2.setSalary(3000);
             }else{
                 if(e2.getAge() >= 50){
                     e2.setSalary((int)(Math.random() * 1000) + 4000);
@@ -32,12 +30,10 @@ public class MainProgram {
                     e2.setSalary(e2.getSalary() + 500);
                 }
             }
-        }else{
-            e2.setSalary(3000);
         }
         if(e3.getAge() >= 40){
             if(e3.getAge() < 50){
-                e3.setSalary(4000);
+                e3.setSalary(3000);
             }else{
                 if(e3.getAge() >= 50){
                     e3.setSalary((int)(Math.random() * 1000) + 4000);
@@ -46,12 +42,10 @@ public class MainProgram {
                     e3.setSalary(e3.getSalary() + 500);
                 }
             }
-        }else{
-            e3.setSalary(3000);
         }
         if(e4.getAge() >= 40){
             if(e4.getAge() < 50){
-                e4.setSalary(4000);
+                e4.setSalary(3000);
             }else{
                 if(e4.getAge() >= 50){
                     e4.setSalary((int)(Math.random() * 1000) + 4000);
@@ -60,12 +54,10 @@ public class MainProgram {
                     e4.setSalary(e4.getSalary() + 500);
                 }
             }
-        }else{
-            e4.setSalary(3000);
         }
         if(e5.getAge() >= 40){
             if(e5.getAge() < 50){
-                e5.setSalary(4000);
+                e5.setSalary(3000);
             }else{
                 if(e5.getAge() >= 50){
                     e5.setSalary((int)(Math.random() * 1000) + 4000);
@@ -74,12 +66,10 @@ public class MainProgram {
                     e5.setSalary(e5.getSalary() + 500);
                 }
             }
-        }else{
-            e5.setSalary(3000);
         }
         if(e6.getAge() >= 40){
             if(e6.getAge() < 50){
-                e6.setSalary(4000);
+                e6.setSalary(3000);
             }else{
                 if(e6.getAge() >= 50){
                     e6.setSalary((int)(Math.random() * 1000) + 4000);
@@ -88,8 +78,6 @@ public class MainProgram {
                     e6.setSalary(e6.getSalary() + 500);
                 }
             }
-        }else{
-            e6.setSalary(3000);
         }
 
 
