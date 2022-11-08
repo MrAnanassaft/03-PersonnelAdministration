@@ -72,4 +72,36 @@ public class Employee {
     public void setSalary(double newSalary) {
         this.salary = newSalary;
     }
+
+    public void setForename(String forename) {
+        this.forename = forename;
+    }
+
+    public void setBirthdate(String birthdate) {
+        this.birthdate = birthdate;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public void setYearsOfService(int yearsOfService) {
+        this.yearsOfService = yearsOfService;
+    }
+
+    public void setSpecialities(String specialities) {
+        this.specialities = specialities;
+    }
 }

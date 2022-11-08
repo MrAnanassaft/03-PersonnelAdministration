@@ -1,6 +1,6 @@
 public class MainProgram {
     public static void main(String[] args) {
-        Employee e1 = new Employee("1","Employee","01.01.2000",'m',60,60,"None");
+        Employee e1 = new Employee("1","Employee","01.01.2000",'w',60,60,"None");
         Employee e2 = new Employee("2","Employee","01.01.2000",'m',41,60,"None");
         Employee e3 = new Employee("3","Employee","01.01.2000",'m',53,60,"None");
         Employee e4 = new Employee("4","Employee","01.01.2000",'m',78,60,"None");
@@ -81,6 +81,24 @@ public class MainProgram {
         }
 
 
+        if(e1.getGender() == 'w'){
+            double newSalary = e1.getSalary() + 10000;
+            e1.setSalary(newSalary);
+        }else{
+            double newSalary2 = e1.getSalary() - 5000;
+            e1.setSalary(newSalary2);
+        }
+        if(e1.getAge() >= 50 && e1.getGender() == 'm'){
+            double newWeight = e1.getWeight() - 10;
+            e1.setWeight(newWeight);
+        }
+        if(e1.getGender() == 'w' && e1.getAge() >= 50 && e1.getAge() < 65){
+            double newWeight = e1.getWeight() - 5;
+            e1.setWeight(newWeight);
+        }else{
+            double newWeight2 = e1.getWeight() + 2;
+            e1.setWeight(newWeight2);
+        }
 
 
 
